@@ -6,6 +6,7 @@ task wrap(type: Wrapper) {
 
 war{
     from '.'
-    exclude 'build'
+    exclude 'build*'
     exclude '.gradle'
+    exclude 'gradle*'
 }
